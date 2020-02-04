@@ -1,0 +1,30 @@
+To execute Selenium and Python you need to install them first.
+
+1: Install Selenium + Python 💻
+
+### 1. Install Python
+
+```sh
+https://www.python.org/downloads/
+```
+
+### 2. Install Selenium
+
+```sh
+https://selenium-python.readthedocs.io/installation.html
+```
+
+### 3. Install browser driver
+You will also need to download Selenium driver for the browser where you want to execute the tests. This driver is used by Selenium standalone server to start the browser of your choice - see following table for the most common browsers:
+
+| Browser       | Selenium driver     | Download link  |
+|---------------|---------------------|-------|
+| Firefox       | Geckodriver         | [download](https://github.com/mozilla/geckodriver/releases) |
+| Chrome        | Chromedriver        | [download](https://sites.google.com/a/chromium.org/chromedriver/downloads) |
+| MS Edge       | Microsoft WebDriver | [download](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) |
+| Safari        | Safari              | [download](https://webkit.org/blog/6900/webdriver-support-in-safari-10/) |
+
+
+
+Download the browser driver and place the binary file (like `geckodriver` or `chromedriver`) to your PATH (eg. in `/usr/bin`). You can also place the file elsewhere, but then you must pass the path to the Selenium server (see below).
+
